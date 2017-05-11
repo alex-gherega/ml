@@ -1,14 +1,11 @@
-# The peek-at repository
-### a place for collaboration, development, research on CS  and related fields
+# Basic ML repo
+### a place for collaboration, development, research on ML and related fields
 
 [Join on slack](https://peek-at.slack.com/shared_invite/MTgxOTU2MDc0MzU1LTE0OTQ1MDI3MzgtZTRhYTc5YzkxZQ)
 
-## What is this place for?
+## Documentation - TBD
 
-Finding yourself asking questions a lot? Then this place is for you.
-It is dedicated for exchanging ideas and sharing code with respect to fields connected to FP, Clojure, ML/AI, Maths you name it :)
-
-It is a wide umbrela where your curiosity sets the bar.
+As this repository will grow documentation will be added
 
 # Technologies
 
@@ -17,10 +14,7 @@ Join us on slack: [peek-at-clojure](https://peek-at.slack.com/shared_invite/MTgx
 
 # Structure
 
-A bunch of directories each having it's own well designated place.
-* peekatclojure - is used for various workshops to share handouts useful setups/materials etc
-* ml - a bunch of ml algs (and sugestions to various Clojure APIs and projects to use with this field).
-* the list should grow
+A bunch of directories each a Clojure project for some specific ML work.
 
 # Want to join? 
 

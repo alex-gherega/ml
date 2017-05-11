@@ -1,0 +1,13 @@
+(ns dbscan.math
+  (:require [clojure.math.numeric-tower :as math]))
+
+(defn sqr [x] (*' x x))
+
+(defn ^:dynamic ecld-distance [p q]
+  ;; (try 
+  ;;   (math/sqrt (reduce + (map (comp sqr -) p q)))
+  ;;   (catch ArithmeticException e (do (println "ERRRRORRRRR" p q) -1000)))
+  (math/sqrt (reduce +' (map (comp sqr -') p q))))
+
+(defn is-in-distance? [d-fn eps p q]
+  (< (d-fn p q) eps))

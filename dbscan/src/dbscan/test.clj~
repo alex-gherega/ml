@@ -1,0 +1,17 @@
+(ns dbscan.test
+  (:require [dbscan.core :as dbs]
+            [dbscan.data :as data]))
+
+(defn read-raw [path]
+  (with-open [in-file (io/reader path)]
+    (doall
+     (csv/read-csv in-file))))
+
+(defn process [raw]
+  (let [raw (-> raw vec rest vec)]
+    (vec (map vec raw))))
+
+(def raw (read-raw "resources/iris.csv"))
+
+(def parsed (atom (data/coerce (process raw))))
+
