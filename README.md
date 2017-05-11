@@ -1,4 +1,4 @@
-# The peek-At repository
+# The peek-at repository
 ### a place for collaboration, development, research on CS  and related fields
 
 [Join on slack](https://peek-at.slack.com/shared_invite/MTgxOTU2MDc0MzU1LTE0OTQ1MDI3MzgtZTRhYTc5YzkxZQ)
@@ -13,7 +13,7 @@ It is a wide umbrela where your curiosity sets the bar.
 # Technologies
 
 For now Clojure - yes! I am a fan :)
-Join us on slack: [peek-at-clojure] (https://peek-at.slack.com/shared_invite/MTgxOTU2MDc0MzU1LTE0OTQ1MDI3MzgtZTRhYTc5YzkxZQ)
+Join us on slack: [peek-at-clojure](https://peek-at.slack.com/shared_invite/MTgxOTU2MDc0MzU1LTE0OTQ1MDI3MzgtZTRhYTc5YzkxZQ)
 
 # Structure
 
